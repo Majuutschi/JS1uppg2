@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#error {
+    color: red;
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.bg-done {
+    background-color: rgb(142, 207, 142);
+}
+
