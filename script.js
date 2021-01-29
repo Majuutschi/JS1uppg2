@@ -72,8 +72,9 @@ const createTodo = async title => {
     const todo = await res.json()
     
     todo.id = Math.floor((Math.random() * 1000) +1).toString()
-    console.log(todos)
+    
     todos.unshift(todo);
+    console.log(todos);
         
     listTodos(todos);
 
